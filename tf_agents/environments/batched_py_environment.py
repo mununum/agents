@@ -146,6 +146,9 @@ class BatchedPyEnvironment(py_environment.PyEnvironment):
     """
 
     if self._num_envs == 1:
+
+      return self._envs[0].step(actions)
+
       actions = nest_utils.unbatch_nested_array(actions)
       time_steps = self._envs[0].step(actions)
       return nest_utils.batch_nested_array(time_steps)
