@@ -8,3 +8,9 @@ __pycache__
 *.swp
 .vscode/
 .idea/
+tf_agents_nightly.egg-info/dependency_links.txt
+tf_agents_nightly.egg-info/not-zip-safe
+tf_agents_nightly.egg-info/PKG-INFO
+tf_agents_nightly.egg-info/requires.txt
+tf_agents_nightly.egg-info/SOURCES.txt
+tf_agents_nightly.egg-info/top_level.txt
